@@ -1,0 +1,33 @@
+.container {
+  border: 1px solid red;
+  border-radius: 6px;
+  min-height: 4rem;
+  padding: 0.6rem;
+  margin: 2rem;
+  cursor: text;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container:focus-within {
+  border: 2px solid purple;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tag {
+  border: 1px solid grey;
+  display: grid;
+  place-items: center;
+
+  border-radius: 6px;
+}
+
+.tag,
+.tagInput {
+  padding: 0.5rem;
+  margin: 0.2rem;
+}
